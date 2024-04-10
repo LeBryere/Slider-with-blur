@@ -20,25 +20,36 @@
 
 ### Basic Usage
 
-A page showcasing a multi-image slider gallery structured as follows:
+Thank you for the inspiration Nathan Taylor-nak.
 
-- Radio buttons ```html <input type="radio"> ``` are used for switching between images, with each button representing a different image.
-- Images are contained within divs with the class slide_img, each of which includes a pair of images along with previous and next buttons.
-- Navigation is located within the div with the id nav_slide, which includes dots corresponding to each image ```css <label for="i1" class="dots"> ```.
-- Both radio buttons and dots can be used to select the currently displayed image.
+This code implements a simple slideshow that allows us to navigate forward and backward between the images.
 
-This layout enables easy navigation and simple switching between images. Additionally, the SCSS file is downloadable
+For the DOMContentLoaded event, we create an event handler that runs the code when all HTML content has loaded. This ensures that the JavaScript code only runs when all HTML content is available.
+
+Then we calculate all the slides, and create an indicator for each within the element with the class slider__indicators.
+
+We use the setTimeout function to add a CSS class (slider__wrap--hacked) to the slider__wrap element after 1 second. This is a timed operation that allows, for example, animations or other modifications to be executed after the page has finished loading.
+
+The goToSlide function sets the active slide determined by the number provided as an argument. It adds the slider__slide--active class to the active slide, and removes this class from all other slides.
+
+The nextButtons variable selects all buttons that we can click to navigate to the next slide. We add event handlers to these buttons so that each click advances the active slide.
+-
 
 ### Variables
 ```css
-$big_width: 70%; //Slider width - large display
-$big_height: 40%; //Slider height - large display
-$big_nav_width: 12%; // Previous and Next width - large display
-$big_top: 40px;
+$main: #777;
+$back: #aaa;
+$accent: hsl(220, 50%, 40%);
 
-$small_width: 100%; //Slider width - small display
-$small_height: 55%; //Slider height - small display
-$small_nav_width: 15%; // Previous and Next width - small display
+$sans: 'Open Sans', sans-serif;
+$heebo: 'Heebo', sans-serif;
+
+$base: 3vh;
+
+$time: 1800ms;
+
+$ease-out: cubic-bezier(0.260, 0.005, 0.135, 1.000);
+$ease-in-out: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 ```
 
 ## Copyright and License
