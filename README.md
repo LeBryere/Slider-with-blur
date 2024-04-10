@@ -1,4 +1,4 @@
-# [Slider with blur](https://lebryere.github.io/Slider-with-blur.git/)
+# [Slider with blur](https://lebryere.github.io/Slider-with-blur/)
 
 ## Browser Support
 
@@ -8,13 +8,13 @@
 
 ## Preview
 
-[![Resume Preview](preview.png)](https://lebryere.github.io/Slider-with-blur.git/)
+[![Resume Preview](preview.png)](https://lebryere.github.io/Slider-with-blur/)
 
-**[View Live Preview](https://lebryere.github.io/Slider-with-blur.git/)**
+**[View Live Preview](https://lebryere.github.io/Slider-with-blur/)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/Slider-with-blur.git/master/LICENSE).
+[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/Slider-with-blur/master/LICENSE).
 
 ## Usage
 
@@ -54,4 +54,4 @@ $ease-in-out: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 
 ## Copyright and License
 
-Copyright 2024 Lebryere. Code released under the [![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/Slider-with-blur.git/master/LICENSE).
+Copyright 2024 Lebryere. Code released under the [![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/Slider-with-blur/master/LICENSE).
